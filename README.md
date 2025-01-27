@@ -129,3 +129,23 @@ A simple, self-contained foreign exchange application designed to provide real-t
     - A `Dockerfile` and `docker-compose.yml` are provided for running the application in a containerized environment.
 
 ---
+
+## **Tech Stack**
+
+### **Backend**
+- **Java 21**: Core programming language.
+- **Spring Boot**: Framework for building RESTful APIs and managing application logic.
+- **Spring Data JPA**: ORM for database operations.
+- **H2 Database**: In-memory database for development and testing.
+- **Lombok**: Simplifies Java code by reducing boilerplate code like getters and setters.
+
+### **API Integration**
+- **RestTemplate**: For external API calls to fetch exchange rates.
+
+### **Testing**
+- **JUnit 5**: Unit testing framework.
+- **Mockito**: Mocking library for service testing.
+
+### **DevOps**
+- **Maven**: Build and dependency management.
+- **Docker**: Containerization for consistent environment setup.
